@@ -4,7 +4,7 @@
 pulse2mqtt.py
 Created by Sascha Kloß on 2024-03-18.
 
-base on pysml.py
+based on pysml.py
 Created by Christian Stade-Schuldt on 2014-10-25.
 
 Change
