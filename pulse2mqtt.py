@@ -70,8 +70,8 @@ def main():
           d208 = int(m208.group(1),16)/10000.0
           d167 = m167
                     
-          client.publish("tibberpulse/" + "1.0.8", d108)
-          client.publish("tibberpulse/" + "2.0.8", d208)
+          client.publish("tibberpulse/" + "1.8.0", d108)
+          client.publish("tibberpulse/" + "2.8.0", d208)
           client.publish("tibberpulse/" + "1.6.7", d167)
           print("{0}:{1}:{2}:{3}".format(d108,d208,d167,datetime.datetime.now().strftime('%d.%m.%Y')))
 
